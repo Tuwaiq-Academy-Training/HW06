@@ -7,6 +7,7 @@ you are required to design the schemas used for various products, you are not al
 ## Food Tracking Application
 
 We need to build a mobile application that tracks how much each person ate during it's day, we need to save the following information about each person:
+
 - Meals
 - Content of the meal
 - Calories of each food in the meal
@@ -24,3 +25,24 @@ you are tasked with building an in-house cloud version tracking system that is s
 - Issues (with their features) on each Repo
 
 Good Luck.
+
+Sample Solution for another system:
+
+```js
+type message={
+    id:'number',
+    sender:'string',
+    receiver:'string',
+    message:'string',
+}
+// main database
+{
+    groups:[
+        homeworks:[message],
+        announcements:[message],
+        q-and-a:[message],
+        random-chatting:[message]
+    ],
+    private:[message]
+}
+```
