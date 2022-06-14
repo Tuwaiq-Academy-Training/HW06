@@ -1,0 +1,70 @@
+{  
+"Food Tracking Application":{
+    "Meals": {
+        "user" : {
+            "_id" : "objectId",
+            "name" : "String",
+            "email" : "String",
+            "password" : "String",
+            "gender" : ["String","String"]
+        },
+        "meal":{
+            "_id" : "objectId",
+            "name" : "String",
+            "sizeOfMeal" : ["String","String","String"],
+            "caloriesOfMeal" : "number"
+        },
+            "contentOfMeal": {
+                "mealId" : "objectId",
+                "_id" : "objectIdofmeal",
+                "meal-contents" : []
+            },
+            "caloriesOfContentOfMeal" : {
+                "contentOfMealId" : "objectId", 
+                "-id" : "objectId",
+                "typeOfCalory" : []
+            },
+            "userTarget" : {
+            "userId" : "objectId",
+            "ageOfUser" : "number",
+            "lifStyleOfUser" : {
+                "active" : "string",
+                "notActive" : "String"
+            },
+            "sizeOfUser" : {
+                "height" : "number",
+                "weight" : "number"
+            }
+            },
+            "ExersiceCalories" : {
+                "userId" : "objectId",
+                "Activity" : {
+                    "Light Activity" : {
+                        "exersiscs" : {
+                          "Calories Burned per Hour" : {
+                            "mane" : "number",
+                            "woman" : "number"
+                          }  
+                        }
+                    },
+                    "Moderate Activity" : {
+                        "exersiscs" : {
+                            "Calories Burned per Hour" : {
+                                "mane" : "number",
+                                "woman" : "number"
+                            } 
+                        }
+                    },
+                    "Very Strenuous Activity" : {
+                        "exersiscs" : {
+                            "Calories Burned per Hour" : {
+                               "mane" : "number",
+                               "woman" : "number" 
+                            }  
+                        } 
+                    }
+                }
+            }
+    } 
+ }
+}
