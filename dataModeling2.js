@@ -1,5 +1,14 @@
 
 const InHouseRepositories = [
+    
+    user" = {
+    "name":[String],
+    "email":[String],
+    "password":[String],
+    "phone":[String],
+    
+}
+        
     repos = {
         repositries: [repositries],
         repoName : String,
