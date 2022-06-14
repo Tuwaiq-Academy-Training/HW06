@@ -1,0 +1,54 @@
+user={
+    //user
+    "user":[String],
+    "name":[String],
+    "email":[String],
+    "password":[String],
+    "phone":[String],
+    "weight":[Number],
+    "height":[Number],
+    "age":[Number],
+    
+
+}
+meals={
+    //meals
+    "meal":[String],
+    "date":[String],
+    "time":[String],
+    
+}
+contentinthemeal={
+    "calories":[Number],
+    "protein":[Number],
+    "carbs":[Number],
+    "fat":[Number],
+    "sugar":[Number]
+}
+caloriescalculated={
+    "calories":[Number],
+    "protein":[Number],
+    "carbs":[Number],
+    "fat":[Number],
+    "sugar":[Number]
+}
+usertargetcalories={
+    "Targetcalories":[Number],
+    "Todayscalories":[Number],
+    "Remainingcalories":[Number]
+}
+exsersise={
+    "exercise":[String],
+    "date":[String],
+    "time":[String],
+    "duration":[Number],
+    "caloriesburnet":[Number]
+}
+excersisecalculated={
+    "caloriesburnet":[Number]
+}
+excersisetarget={
+    "Targetcalories":[Number],
+    "Todayscalories":[Number],
+    "Remainingcalories":[Number]
+}
