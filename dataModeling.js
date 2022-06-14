@@ -1,4 +1,16 @@
 const appApplication = [
+    
+    user = {
+        
+    "name":[String],
+    "email":[String],
+    "password":[String],
+    "phone":[String],
+    "weight":[Number],
+    "height":[Number],
+    "age":[Number],
+    }
+        
     Meals = {
         breakFast: [String],
         Launch: [String],
