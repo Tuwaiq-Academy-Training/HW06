@@ -1,0 +1,67 @@
+{
+    "InHouseRepo" : {
+        "user" : {
+            "_id" : "objectId",
+            "name" : "String",
+            "email" : "String",
+            "password" : "String",
+            "editProfile" : {
+                "edit name" : "String" ,
+                "editBio" : "String",
+                "editcompany" : "Sreing",
+                "editLocation" : "String"
+            },
+            "setStatus" : {
+                "editStatus" : {
+                    "whatIsHappening" :{
+                        "OnVacation" : "String",
+                        "Out sick" : "String",
+                        "Working from home" : "String",
+                        "Focusing" : "String"
+                    }
+                }
+            }
+        },
+        "Repositories" : {
+            "createRepo" : {
+              "Owner" : {
+                "userName" : "String",
+                "repoName" : "String"
+              }  
+            },
+            "userId" : "objectId",
+            "_Id" : "objectId",
+            "repoNmae" : "String",
+            "typeOfRepo" : {
+                "private" : "String",
+                "public" : "String"
+            }
+
+        },
+        "pullRequest" : {
+            "newPullReq" :{
+                "comparingChangs" : {
+                    "baseRepo" : "String",
+                    "base" : "String",
+                    "headRepo" : "String",
+                    "compare" : "String"
+                }
+            },
+            "RepId" : "objectId",
+            "userId" : "objectId",
+            "_id" : "object",
+            "ReqNmae" : "String"
+        },
+        "Issues" : {
+            "newIssues" : {
+                "created" : "String",
+                "Assigned" : "String",
+                "Mentioned" : "String"
+            },
+            "userId" : "objectId",
+            "RepId" : "objectId",
+            "_Id" : "objectId",
+            "lssueNmae" : "String"
+        }
+    }
+}
