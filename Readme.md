@@ -6,13 +6,13 @@ you are required to design the schemas used for various products, you are not al
 
 ## Food Tracking Application
 
-We need to build a mobile application that tracks how much each person ate during it's day, we need to save the following information about each person:
+We need to build a mobile application that tracks how much each person ate during it"s day, we need to save the following information about each person:
 
 - Meals
 - Content of the meal
 - Calories of each food in the meal
-- User's target calories
-- Exersice's calories burnt
+- User"s target calories
+- Exersice"s calories burnt
 
 your task is to build the format for these informations as json files.
 
@@ -30,10 +30,10 @@ Sample Solution for another system:
 
 ```js
 type message={
-    id:'number',
-    sender:'string',
-    receiver:'string',
-    message:'string',
+    id:"number",
+    sender:"string",
+    receiver:"string",
+    message:"string",
 }
 // main database
 {
